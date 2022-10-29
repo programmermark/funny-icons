@@ -1,7 +1,7 @@
 {
-  "name": "funny-icons",
+  "name": "@funny-ui/icons",
   "version": "0.0.1",
-  "description": "Icons of funny ui",
+  "description": "Icons of @funny-ui",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "bin": {
