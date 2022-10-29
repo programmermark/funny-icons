@@ -1,0 +1,38 @@
+{
+  "name": "funny-icons",
+  "version": "0.0.1",
+  "description": "Icons of funny ui",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "bin": {
+    "funny-icons": "lib/index.js"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "builder",
+    "funny"
+  ],
+  "author": "zhonghui <1126765590hui@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/programmermark/funny-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/programmermark/funny-icons/issues"
+  },
+  "scripts": {
+    "build": "funny-icons build",
+    "updateSvg": "node ./lib/updateSvg.js"
+  },
+  "dependencies": {
+    "commander": "^6.2.1",
+    "fs-extra": "^9.0.1",
+    "webfont": "^9.0.0"
+  }
+}
